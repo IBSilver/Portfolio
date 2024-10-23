@@ -50,11 +50,34 @@
 						<!-- Content -->
 							<div class="wrapper">
 								<div class="inner">
-
-									<h2 class="major">University Degree projects</h2>
-									<p>This section shows projects I have worked on during my 4 years of undergraduate training that I consider most interesting.</p>
-
-									<section class="features">
+									
+									<div class="col-12">
+										<label for="demo-category">Project Category</label>
+										<select name="demo-category" id="demo-category">
+											<option value="">ALL</option> <!-- Cambiado "-" a "All" -->
+											<option value="gamejams">GAME JAMS</option>
+											<option value="university">UNIVERSITY DEGREE PROJECTS</option>
+										</select>
+									</div>
+									<p></p>
+									
+									<!-- Game Jams Section -->
+									<h2 class="major features category-gamejams">Game Jams</h2>
+									<p class="features category-gamejams">This section shows projects I have worked on Game Jams.</p>
+									<section class="features category-gamejams">
+										<article>
+											<a href="" class="image"><img src="" alt="" /></a>
+											<h3>Premis Ludi</h3>
+											<h4 class="major">2024 / Designer</h4>
+											<p>In progress...</p>
+											<!--<a href="" class="special">Learn more</a>-->
+										</article>
+									</section>
+									
+									<!-- University Degree Projects Section -->
+									<h2 class="major features category-university">University Degree Projects</h2>
+									<p class="features category-university">This section shows projects I have worked on during my 4 years of undergraduate training that I consider most interesting.</p>
+									<section class="features category-university">
 										<article>
 											<a href="projects/alien.html" class="image"><img src="images/projects/alien/title.png" alt="" /></a>
 											<h3>Alien: Extraction</h3>
@@ -115,6 +138,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/projectfilter.js"></script>
+			
 	</body>
 </html>
